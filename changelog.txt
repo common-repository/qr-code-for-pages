@@ -1,0 +1,91 @@
+== Changelog ==
+
+= 2.2 =
+* Improved user authorization and registration on me-qr
+* Improved accuracy of QR code generation and regeneration, added id for QR codes
+* Improved redirects to me-qr on the plugin settings page
+* Improved logic for updating qr code style in qr code generation blocks, with an authorized user
+* Improved plugin stability and improved code
+* Removed the logic for deleting a temporary user to prevent loss of plugin user data during reinstallation
+* Removed unused files to reduce plugin weight
+
+= 2.1 =
+* Added support for simple and other types of links on the site
+* Added support for the latest version of WordPress 6.4.3
+* Improved performance of the external request service
+* Fixed plugin functionality
+* Fixed display of svg qr code in generation blocks in Gutenberg and WooCommerce products
+* Replaced the WordPress space style code in conditions, functions and methods with psr (without indentation)
+* Removed unnecessary outdated files
+
+= 2.0 =
+* Added system of registration, authorization and user logout
+* Added new types of data validation, improved the core of validating and parsing data from validated classes
+* Added functionality for displaying plugin error messages in the admin panel
+* Added a repository system for options placed in the options table, removed multiple single options
+* Replaced telegram logging system for plugin error report
+* Replaced multiple backups of plugin settings for a single
+* Replaced some option keys in endpoints
+* Improved adaptation of the layout of the plugin settings page
+* Improved compilation of the plugin core from the basic plugin files
+* Improved plugin file system
+* Improved the style code, all requests for ME-QR, replaced with OOP style
+* Improved basic html on the plugin settings page
+* Improved the modal window on the settings page, which can now be closed with the ESC button
+* Improved tags in the plugin's readme file
+* Improved logic of logging permissions
+* Removed user merge system
+* Removed unnecessary messages for data validation, which should only get into the log file instead of output for the user
+* Removed css file with global plugin colors, merged with the base style file
+* Fixed the error of not updating the QR code in the Gutenberg and Woocommerce block
+* Fixed an error that caused plugin error messages not to be sent to the developer
+* Many other changes/improvements in the code
+
+= 1.2 =
+* Added a button to update the gr-code in the Gutenberg block and WooCommerce (re-upload, display and save in the
+uploads directory)
+* Added the "Me-Qr Account" section on the plugin settings page
+* Added "Logging settings" section on plugin settings page
+* Added import and export of settings from the Me-Qr server
+* Added critical logging in case of permanent errors in the main plugin files
+* Added logic for saving the language when navigating to Me-Qr pages
+* Added the ability to translate error messages when validating an object
+* Added the ability to display notification messages after page reloading
+* Improved links to the Me-Qr site on the plugin settings page (links now open in a new window)
+* Improved parameter validation in the endpoint of the plugin settings page
+* Improved operation and added adaptation of notifications output on the plugin settings page
+* Improved the translation file style code
+* Improved object validation logic
+* Improved and redesigned all controllers in the plugin
+* Changed the color of the subtitle icons on the plugin settings page
+* Changed the logic of throwing all exceptions in the plugin. All exceptions are reduced to a single image
+* Fixed telegram logging errors, of which logging was not possible
+* Many other changes/improvements in the code
+
+= 1.1 =
+* Added plugin settings page along with tab in admin navbar
+* Added the ability to buy premium, on the plugin settings page
+* Added logic for user authorization on me-qr, from the current plugin account on the plugin settings page
+* Added plugin internationalization
+* Added Russian translation
+* Added api-endpoint for saving plugin settings
+* Added api-endpoint for updating plugin data from Me-Qr - qr token and information about user's premium status
+* Added api-endpoint to check if a user has a premium
+* Added css class settings for html-block and qr-image, which are rendered by the shortcode on the front page
+* Added logic for notifications about user actions on plugin pages
+* Added logic to validate current Gutenberg and Woocommerce post edit page (this improved the accuracy of plugin code
+loading)
+* Improved external logic for downloading qr codes (html, css, js)
+* Improved input validation data logic
+* Many other code improvements
+
+= 1.0.2 =
+* Added screenshots of plugin description
+* Fixed the problem of displaying the qr-code on the front page, due to the inability to get the private property of
+the validated object
+
+= 1.0.1 =
+* Fixed namespace conflict with other plugins in the "psr" package
+
+= 1.0 =
+* First plugin release

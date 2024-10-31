@@ -1,0 +1,54 @@
+{
+    "translation-revision-date": "2023-06-15T12:51:42+00:00",
+    "generator": "WP-CLI\/2.7.1",
+    "source": "frontend\/build\/index.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "ru_RU",
+                "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);"
+            },
+            "QR Code": [
+                "QR \u041a\u043e\u0434"
+            ],
+            "The QR code has already been generated for this product. You can watch it.": [
+                "QR-\u043a\u043e\u0434 \u0434\u043b\u044f \u044d\u0442\u043e\u0433\u043e \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u0430 \u0443\u0436\u0435 \u0441\u043e\u0437\u0434\u0430\u043d. \u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0435\u0433\u043e."
+            ],
+            "Generate a QR-Code for the current product and use your online store to the fullest.": [
+                "\u0421\u0433\u0435\u043d\u0435\u0440\u0438\u0440\u0443\u0439\u0442\u0435 QR-\u043a\u043e\u0434 \u0434\u043b\u044f \u0442\u0435\u043a\u0443\u0449\u0435\u0433\u043e \u0442\u043e\u0432\u0430\u0440\u0430 \u0438 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0439\u0442\u0435 \u0441\u0432\u043e\u0439 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442-\u043c\u0430\u0433\u0430\u0437\u0438\u043d \u043d\u0430 \u043f\u043e\u043b\u043d\u0443\u044e."
+            ],
+            "Show QR-Code": [
+                "\u041f\u043e\u043a\u0430\u0437\u0430\u0442\u044c QR-\u043a\u043e\u0434"
+            ],
+            "Generate QR-Code": [
+                "\u0413\u0435\u043d\u0435\u0440\u0438\u0440\u043e\u0432\u0430\u0442\u044c QR-\u043a\u043e\u0434"
+            ],
+            "QR code is loading, please wait...": [
+                "QR-\u043a\u043e\u0434 \u0437\u0430\u0433\u0440\u0443\u0436\u0430\u0435\u0442\u0441\u044f, \u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u0434\u043e\u0436\u0434\u0438\u0442\u0435..."
+            ],
+            "Update QR Code": [
+                "\u041e\u0431\u043d\u043e\u0432\u0438\u0442\u044c QR-\u043a\u043e\u0434"
+            ],
+            "Download QR Code": [
+                "\u0421\u043a\u0430\u0447\u0430\u0442\u044c QR \u041a\u043e\u0434"
+            ],
+            "Copy shortcode": [
+                "\u041a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0448\u043e\u0440\u0442\u043a\u043e\u0434"
+            ],
+            "Copied": [
+                "\u0421\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e"
+            ],
+            "Not copied": [
+                "\u041d\u0435 \u0441\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d\u043e"
+            ],
+            "QR code was not generated.": [
+                "QR-\u043a\u043e\u0434 \u043d\u0435 \u0431\u044b\u043b \u0441\u0433\u0435\u043d\u0435\u0440\u0438\u0440\u043e\u0432\u0430\u043d."
+            ],
+            "Try reloading the page or reinstalling the plugin": [
+                "\u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043f\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044c \u0441\u0442\u0440\u0430\u043d\u0438\u0446\u0443 \u0438\u043b\u0438 \u043f\u0435\u0440\u0435\u0443\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u0442\u044c \u043f\u043b\u0430\u0433\u0438\u043d"
+            ]
+        }
+    }
+}

@@ -1,0 +1,176 @@
+.me-qr-wc-body {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    .me-qr-wc-body .me-qr-wc-img-box {
+        width: 100%;
+        position: relative;
+        padding: 0.8rem 0.938rem 0.2rem 0.938rem;
+    }
+        .me-qr-wc-img-box .me-qr-wc-img {
+            max-width: 100%;
+        }
+
+    .me-qr-wc-body .me-qr-wc-choice-box {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.313rem 0.5rem;
+        padding: 0.2rem 1rem 0.5rem 1rem;
+        margin-bottom: 0.3rem;
+    }
+        .me-qr-wc-choice-box .me-qr-wc-choice-item {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+            .me-qr-wc-choice-item input[type=radio] {
+                display: none;
+            }
+            .me-qr-wc-choice-item label {
+                position: relative;
+                font-size: 1rem;
+                text-transform: uppercase;
+                padding: 0.231rem 0.385rem;
+                border-radius: 0.231rem;
+            }
+            .me-qr-wc-choice-item label:hover {
+                color: #0a0a0b;
+                background-color: var(--me-qr-light-gray-color);
+            }
+            .me-qr-wc-choice-item input[type=radio]:checked + label:before {
+                content: '';
+                width: 100%;
+                height: 0.115rem;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                border-radius: 0.125rem;
+                background-color: var(--me-qr-violet-color);
+            }
+
+    .me-qr-wc-body .me-qr-wc-btn-box {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0.6rem;
+    }
+        .me-qr-wc-btn-box .me-qr-wc-download-btn {
+            width: 100%;
+        }
+
+    .me-qr-wc-body .me-qr-wc-shortcode-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+        margin-top: 0.769rem;
+        padding: 0 1rem 0.6rem 1rem;
+    }
+        .me-qr-wc-shortcode-box input {
+            width: 100%;
+            max-width: 50rem;
+            height: 2rem;
+            font-size: 0.8rem;
+            text-align: center;
+        }
+        .me-qr-wc-shortcode-box.active input {
+            border-color: var(--me-qr-light-green-color);
+            color: var(--me-qr-light-green-color);
+        }
+        .me-qr-wc-shortcode-box.fail input {
+            border-color: var(--me-qr-light-red-color);
+            color: var(--me-qr-light-red-color);
+        }
+        .me-qr-wc-shortcode-box .me-qr-wc-shortcode-copy-btn-box {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 0.538rem;
+        }
+            .me-qr-wc-shortcode-copy-btn-box .me-qr-wc-shortcode-copy-btn {
+                color: var(--me-qr-dark-color);
+                cursor: pointer;
+            }
+            .me-qr-wc-shortcode-box.active .me-qr-wc-shortcode-copy-btn {
+                color: var(--me-qr-light-green-color);
+            }
+            .me-qr-wc-shortcode-box.active .me-qr-wc-shortcode-copy-btn:hover {
+                color: var(--me-qr-light-green-color-hov);
+            }
+            .me-qr-wc-shortcode-box.fail .me-qr-wc-shortcode-copy-btn {
+                color: var(--me-qr-light-red-color);
+            }
+            .me-qr-wc-shortcode-box.fail .me-qr-wc-shortcode-copy-btn:hover {
+                color: var(--me-qr-light-red-color-hov);
+            }
+            .me-qr-wc-shortcode-copy-btn-box .me-qr-wc-shortcode-copy-btn:hover {
+                color: var(--me-qr-dark-color-hov);
+                text-decoration: underline;
+            }
+            .me-qr-wc-shortcode-copy-btn-box .me-qr-btn-success,
+            .me-qr-wc-shortcode-copy-btn-box .me-qr-btn-success:hover {
+                color: var(--me-qr-light-green-color);
+            }
+            .me-qr-wc-shortcode-copy-btn-box .me-qr-btn-success,
+            .me-qr-wc-shortcode-copy-btn-box .me-qr-btn-success:hover {
+                color: var(--me-qr-light-green-color);
+            }
+
+    .me-qr-wc-body .me-qr-wc-reload-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: max-content;
+        height: max-content;
+        font-size: 1rem;
+        cursor: pointer;
+        color: var(--me-qr-gray-color-2);
+        z-index: 100;
+    }
+    .me-qr-wc-body .me-qr-wc-reload-btn:hover {
+        color: var(--me-qr-dark-color)
+    }
+
+
+.me-qr-wc-render-box {
+    max-width: 100%;
+    min-height: 6.5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-wrap: wrap;
+    padding: 0.8rem 0;
+}
+
+    .me-qr-wc-render-box .me-qr-wc-render-btn-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+        .me-qr-wc-render-btn-box .me-qr-wc-render-btn {
+            width: 80%;
+            height: max-content;
+        }
+
+.me-qr-loading-module {
+    min-height: 7.3rem;
+}
+    .me-qr-loading-module .me-qr-loader {
+        width: 2rem;
+        height: 2rem;
+    }
+
+.me-qr-error-box {
+    min-height: 6.5rem;
+}

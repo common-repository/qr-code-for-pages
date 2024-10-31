@@ -1,0 +1,11 @@
+.me-qr-code-box {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    .me-qr-code-box .me-qr-img {
+        width: 11.538rem;
+        height: 11.538rem;
+    }

@@ -1,0 +1,24 @@
+{
+    "translation-revision-date": "2023-06-15T12:51:42+00:00",
+    "generator": "WP-CLI\/2.7.1",
+    "source": "backend\/assets\/js\/admin\/pages\/admin-settings\/AccountLogout.js",
+    "domain": "messages",
+    "locale_data": {
+        "messages": {
+            "": {
+                "domain": "messages",
+                "lang": "ru_RU",
+                "plural-forms": "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);"
+            },
+            "Confirm logout": [
+                "\u041f\u043e\u0434\u0442\u0432\u0435\u0440\u0434\u0438\u0442\u0435 \u0432\u044b\u0445\u043e\u0434"
+            ],
+            "Do you really want to log out of your current account?": [
+                "\u0412\u044b \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0445\u043e\u0442\u0438\u0442\u0435 \u0432\u044b\u0439\u0442\u0438 \u0438\u0437 \u0441\u0432\u043e\u0435\u0439 \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0443\u0447\u0435\u0442\u043d\u043e\u0439 \u0437\u0430\u043f\u0438\u0441\u0438?"
+            ],
+            "Error logout:": [
+                "\u041e\u0448\u0438\u0431\u043a\u0430 \u0432\u044b\u0445\u043e\u0434\u0430 \u0438\u0437 \u0441\u0438\u0441\u0442\u0435\u043c\u044b:"
+            ]
+        }
+    }
+}

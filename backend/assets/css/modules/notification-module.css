@@ -1,0 +1,89 @@
+.me-qr-notifications-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem 0.313rem;
+    align-items: center;
+    justify-content: start;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 0.5rem 0.625rem 0.5rem 0.625rem;
+    margin-top: 32px;
+    pointer-events: none;
+    z-index: 999991;
+    box-sizing: border-box;
+}
+    .me-qr-notifications-container .me-qr-notification {
+        position: relative;
+        min-width: 18.75rem;
+        max-width: 50%;
+        display: grid;
+        grid-template-columns: 1fr 2rem;
+        grid-column-gap: 0.571rem;
+        color: var(--me-qr-white-color);
+        background-color: #688eac;
+        padding: 0.625rem 1.25rem;
+        border-radius: 0.625rem;
+        pointer-events: auto;
+        box-shadow: 0 0 10px rgba(60, 72, 88, 0.35);
+        animation: 400ms show ease;
+        word-break: break-all;
+        overflow-wrap: break-word;
+        z-index: 999992;
+    }
+    .me-qr-notifications-container .me-qr-error {
+        background-color: var(--me-qr-light-red-color);
+    }
+    .me-qr-notifications-container .me-qr-success {
+        background-color: var(--me-qr-light-green-color);
+    }
+        .me-qr-notification .me-qr-close-btn-box {
+            position: relative;
+            width: 100%;
+            max-height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            border-left: 1px solid var(--me-qr-dark-color-1);
+            padding-left: 0.313rem;
+            transition: 200ms;
+        }
+        .me-qr-notification .me-qr-close-btn-box:hover {
+            border-color: var(--me-qr-dark-color);
+        }
+            .me-qr-close-btn-box .me-qr-close-btn {
+                position: relative;
+                width: 100%;
+                height: max-content;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+            .me-qr-close-btn-box .me-qr-close-btn:after {
+                display: inline-block;
+                content: "\00d7";
+                font-size: 2rem;
+                color: var(--me-qr-dark-color-1)
+            }
+            .me-qr-close-btn-box .me-qr-close-btn:hover:after {
+                color: var(--me-qr-dark-color)
+            }
+
+@media (max-width: 961px) {
+    .me-qr-notifications-container .me-qr-notification {
+        min-width: 20rem;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 783px) {
+    .me-qr-notifications-container .me-qr-notification {
+        max-width: 85%;
+        min-width: auto;
+        width: 85%;
+    }
+}

@@ -1,0 +1,179 @@
+.me-qr-gt-loading-box {
+    text-align: center;
+    font-style: italic;
+}
+
+.me-qr-gt-body {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+    .me-qr-gt-body .me-qr-gt-img-box {
+        padding: 0.2rem 1.2rem 0.5rem 1.2rem;
+    }
+        .me-qr-gt-img-box {
+            width: 100%;
+        }
+
+    .me-qr-gt-body .me-qr-gt-choice-box {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.313rem 0.5rem;
+        padding: 0.5rem 1rem;
+        margin-bottom: 0.3rem;
+    }
+        .me-qr-gt-choice-box .me-qr-gt-choice-item {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
+            .me-qr-gt-choice-item input[type=radio] {
+                display: none;
+            }
+            .me-qr-gt-choice-item label {
+                position: relative;
+                font-size: 1rem;
+                text-transform: uppercase;
+                padding: 0.231rem 0.385rem;
+                border-radius: 0.231rem;
+            }
+            .me-qr-gt-choice-item label:hover {
+                color: #0a0a0b;
+                background-color: var(--me-qr-light-gray-color);
+            }
+            .me-qr-gt-choice-item input[type=radio]:checked + label:before {
+                content: '';
+                width: 100%;
+                height: 0.115rem;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                border-radius: 0.125rem;
+                background-color: var(--me-qr-violet-color);
+            }
+        
+
+    .me-qr-gt-body .me-qr-gt-btn-box {
+        width: 100%;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0.6rem;
+    }
+        .me-qr-gt-btn-box .me-qr-gt-download-btn {
+            width: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: none;
+            border: none;
+            border-radius: 0.25rem;
+            color: var(--me-qr-white-color);
+            background-color: var(--me-qr-violet-color);
+            padding: 0.5rem 0.625rem;
+        }
+        .me-qr-gt-btn-box .me-qr-gt-download-btn:hover {
+            text-decoration: underline;
+            background-color: var(--me-qr-violet-color-hov);
+        }
+        .me-qr-gt-btn-box .me-qr-gt-download-btn:focus {
+            outline: none;
+            box-shadow: 0 0 19px 2px rgba(142, 35, 160, 0.14);
+        }
+
+    .me-qr-gt-body .me-qr-gt-shortcode-box {
+        width: 100%;
+        position: relative;
+        margin-top: 0.769rem;
+        padding: 0 1.154rem;
+    }
+        .me-qr-gt-shortcode-box input {
+            width: 100%;
+            height: 2.308rem;
+        }
+        .me-qr-gt-shortcode-box .me-qr-success-input {
+            color: var(--me-qr-light-green-color);
+            border-color: var(--me-qr-light-green-color);
+        }
+        .me-qr-gt-shortcode-box .me-qr-error-input {
+            color: var(--me-qr-light-red-color);
+            border-color: var(--me-qr-light-red-color);
+        }
+        .me-qr-gt-shortcode-box .me-qr-gt-shortcode-copy-btn-box {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 0.538rem;
+        }
+            .me-qr-gt-shortcode-copy-btn-box .me-qr-qt-shortcode-copy-btn {
+                color: var(--me-qr-dark-color);
+                cursor: pointer;
+            }
+            .me-qr-gt-shortcode-copy-btn-box .me-qr-qt-shortcode-copy-btn:hover {
+                color: var(--me-qr-dark-color-hov);
+                text-decoration: underline;
+            }
+            .me-qr-gt-shortcode-copy-btn-box .me-qr-btn-success,
+            .me-qr-gt-shortcode-copy-btn-box .me-qr-btn-success:hover {
+                color: var(--me-qr-light-green-color);
+            }
+            .me-qr-gt-shortcode-copy-btn-box .me-qr-btn-error,
+            .me-qr-gt-shortcode-copy-btn-box .me-qr-btn-error:hover {
+                color: var(--me-qr-light-red-color);
+            }
+
+    .me-qr-gt-body .me-qr-gt-reload-btn {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: max-content;
+        height: max-content;
+        font-size: 1rem;
+        cursor: pointer;
+        color: var(--me-qr-gray-color-2);
+        z-index: 100;
+    }
+    .me-qr-gt-body .me-qr-gt-reload-btn:hover {
+        color: var(--me-qr-dark-color)
+    }
+
+.me-qr-gt-render-box {
+    width: 100%;
+    min-height: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+    .me-qr-gt-render-box .me-qr-gt-render-btn-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0.5rem 0;
+    }
+        .me-qr-gt-render-btn-box .me-qr-gt-render-btn {
+            max-width: 100%;
+            width: 100%;
+        }
+
+.me-qr-loading-module {
+    min-height: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+    .me-qr-loading-module .me-qr-loader {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .me-qr-loading-module .me-qr-loader-text-box {
+        padding: 0.3rem 0;
+    }
+        .me-qr-loader-text-box .me-qr-loader-text {
+            font-size: 0.9rem;
+        }

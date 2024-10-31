@@ -1,0 +1,446 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: QR Code for Pages\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Language: \n"
+"Content-Type: text/plain; charset=UTF-8"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: me-qr"
+
+#. Name of the plugin
+msgid "QR Code for Pages"
+msgstr ""
+
+#. Description of the plugin
+msgid "Is a plugin for generating QR codes for your WordPress pages or posts made by ME-Team."
+msgstr ""
+
+
+# <--------------------- Guttenberg qr-block ->
+#: wp-content/plugins/me-qr/backend/src/Services/Woocommerce/MeQrWoocommerceService.php
+#: frontend/build/index.js
+msgid "QR Code"
+msgstr ""
+
+#: backend/templates/admin/woocommerce/me-qr-wc-meta-box-template.php
+#: frontend/build/index.js
+msgid "The QR code has already been generated for this product. You can watch it."
+msgstr ""
+
+#: backend/templates/admin/woocommerce/me-qr-wc-meta-box-template.php
+#: frontend/build/index.js
+msgid "Generate a QR-Code for the current product and use your online store to the fullest."
+msgstr ""
+
+#: backend/templates/admin/woocommerce/me-qr-wc-meta-box-template.php
+#: frontend/build/index.js
+msgid "Show QR-Code"
+msgstr ""
+
+#: backend/templates/admin/woocommerce/me-qr-wc-meta-box-template.php
+#: frontend/build/index.js
+msgid "Generate QR-Code"
+msgstr ""
+
+#: backend/templates/admin/woocommerce/me-qr-wc-meta-box-template.php
+#: frontend/build/index.js
+msgid "QR code is loading, please wait..."
+msgstr ""
+
+#: backend/templates/admin/woocommerce/me-qr-wc-meta-box-template.php
+#: frontend/build/index.js
+msgid "Update QR Code"
+msgstr ""
+
+#: backend/templates/admin/woocommerce/me-qr-wc-meta-box-template.php
+#: frontend/build/index.js
+msgid "Download QR Code"
+msgstr ""
+
+#: backend/templates/admin/woocommerce/me-qr-wc-meta-box-template.php
+#: frontend/build/index.js
+msgid "Copy shortcode"
+msgstr ""
+
+#: backend/templates/admin/woocommerce/me-qr-wc-meta-box-template.php
+#: frontend/build/index.js
+msgid "Copied"
+msgstr ""
+
+#: backend/templates/admin/woocommerce/me-qr-wc-meta-box-template.php
+#: frontend/build/index.js
+msgid "Not copied"
+msgstr ""
+
+#: backend/templates/admin/woocommerce/me-qr-wc-meta-box-template.php
+#: frontend/build/index.js
+msgid "QR code was not generated."
+msgstr ""
+
+#: backend/templates/admin/woocommerce/me-qr-wc-meta-box-template.php
+#: frontend/build/index.js
+msgid "Try reloading the page or reinstalling the plugin"
+msgstr ""
+# <--------------------- END Guttenberg qr-block ->
+
+
+# <--------------------- Admin settings spage ->
+msgid "QR for pages settings"
+msgstr ""
+
+msgid "Premium features"
+msgstr ""
+
+msgid "You have activated a premium subscription"
+msgstr ""
+
+msgid "When scanning a QR code, users will not see ads"
+msgstr ""
+
+msgid "You have a free plan"
+msgstr ""
+
+msgid "You have a free plan"
+msgstr ""
+
+msgid "When scanning a QR code, users will see ads"
+msgstr ""
+
+msgid "Purchase our subscription and use QR Codes without ads"
+msgstr ""
+
+msgid "Subscription management"
+msgstr ""
+
+msgid "Purchasing a subscription"
+msgstr ""
+
+msgid "See offers"
+msgstr ""
+
+msgid "View subscription details"
+msgstr ""
+
+msgid "QR-code management"
+msgstr ""
+
+msgid "All QR codes that you generate using the plugin are saved in your account on ME-QR"
+msgstr ""
+
+msgid "You can control all available QR codes in one place"
+msgstr ""
+
+msgid "You also have the opportunity to change the design of each QR code separately, and view their scan statistics"
+msgstr ""
+
+msgid "Go to QR-codes"
+msgstr ""
+
+msgid "Shortcode settings"
+msgstr ""
+
+msgid "Css QR-block class"
+msgstr ""
+
+msgid "Css QR-image class"
+msgstr ""
+
+msgid "Css class for the block containing the QR code, which is rendered by the shortcode"
+msgstr ""
+
+msgid "Css class for the QR code image that rendered by the shortcode"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Settings saved successfully"
+msgstr ""
+
+msgid "Error saving settings: "
+msgstr ""
+
+msgid "Me-QR Account"
+msgstr ""
+
+msgid "You are logged in as an Me-QR user:"
+msgstr ""
+
+msgid "You can change your account by logging out of it"
+msgstr ""
+
+msgid "Generated QR codes and plugin settings will remain unchanged"
+msgstr ""
+
+msgid "Log out of your account"
+msgstr ""
+
+msgid "Create an account on Me-QR, and get more benefits and opportunities"
+msgstr ""
+
+msgid "By creating an account you:"
+msgstr ""
+
+msgid "Never lose the generated QR codes"
+msgstr ""
+
+msgid "You will be able to customize each QR code separately"
+msgstr ""
+
+msgid "You will be able to monitor the statistics of the use of QR codes"
+msgstr ""
+
+msgid "You will be able to get rid of ads in scanned QR codes by purchasing premium"
+msgstr ""
+
+msgid "You will be able to synchronize the plugin settings with the cloud"
+msgstr ""
+
+msgid "I already have an account"
+msgstr ""
+
+msgid "Create a new account"
+msgstr ""
+
+msgid "QR code management"
+msgstr ""
+
+msgid "Go to QR codes"
+msgstr ""
+
+msgid "Logging settings"
+msgstr ""
+
+msgid "Write critical plugin errors to the general project log-file for quick debugging"
+msgstr ""
+
+msgid "File logging"
+msgstr ""
+
+msgid "Send a bug report to the plugin developer"
+msgstr ""
+
+msgid "Send a report"
+msgstr ""
+
+msgid "Sync settings"
+msgstr ""
+
+msgid "Exporting settings"
+msgstr ""
+
+msgid "Allows you to save the current plugin settings on the Me-QR server for the possibility of recovery in the future"
+msgstr ""
+
+msgid "This will allow you to quickly and easily restore settings in case of reinstalling or expanding your account to other plugins in your projects"
+msgstr ""
+
+msgid "Before exporting, first save the changes to the current page"
+msgstr ""
+
+msgid "never"
+msgstr ""
+
+msgid "Export"
+msgstr ""
+
+msgid "Last export"
+msgstr ""
+
+msgid "Importing settings"
+msgstr ""
+
+msgid "Import previously exported settings from the Me-QR server"
+msgstr ""
+
+msgid "Import"
+msgstr ""
+
+msgid "Last import"
+msgstr ""
+
+msgid "Unknown error"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/AccountLogout.js
+msgid "Confirm logout"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/AccountLogout.js
+msgid "Do you really want to log out of your current account?"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/AccountLogout.js
+msgid "Error logout settings:"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "Confirm export"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "After confirming this, a request will be sent to the Me-QR server, and saving the current plugin settings, on cloud storage"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "Everything will be done automatically and your participation will not be required"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "The process will take a few seconds"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "Attention! By this action, you will irrevocably lose the data of the previous export, if there is one"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "The process will take a few seconds"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "There will be no other changes"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "Settings successfully exported"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "Successful export"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "Error exporting settings:"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "Confirm import"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "After confirmation, a request will be sent to the Me-QR server to import your previously exported settings"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "Attention! By this action you will permanently lose your current plugin settings"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "Successful import"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "Settings have been imported successfully"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "You have successfully imported the settings, but you need to reload the page to display them"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "Reboot"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "Reboot later"
+msgstr ""
+
+#: backend/assets/js/admin/pages/admin-settings/SyncSettings.js
+msgid "Error importing settings:"
+msgstr ""
+# <--------------------- END Admin settings spage ->
+
+
+# <--------------------- Frontend modules ->
+#: backend/assets/js/modules/MeQrWindowModal.js
+msgid "Confirm"
+msgstr ""
+
+#: backend/assets/js/modules/MeQrWindowModal.js
+msgid "Cancel"
+msgstr ""
+# <--------------------- END Frontend modules ->
+
+
+# <--------------------- Backend Errors ->
+# <-- System error messages -->
+msgid "Internal data error. Carefully check the data or contact the plugin support"
+msgstr ""
+
+msgid "Internal system error. Contact plugin support"
+msgstr ""
+# <-- END System error messages -->
+
+
+# <-- Validation exeption messages -->
+# {{ value }} - invalid validation value
+# {{ prop }} - name of the invalid value property
+
+# <- Default validation message
+msgid "Validation system error. Validation failed"
+msgstr ""
+
+# %s - Invalid message
+msgid "Validation system error. Validation failed. Error message: `%s`"
+msgstr ""
+
+msgid "Validation errors"
+msgstr ""
+
+msgid "Data validation error"
+msgstr ""
+
+msgid "The specified value {{ value }} of the property {{ prop }}, is not valid"
+msgstr ""
+
+msgid "The value `{{ value }}` should be of type {{ type }}, {{ invalid }} given"
+msgstr ""
+
+msgid "The value {{ value }} can contain a minimum of {{ min }} and a maximum of {{ max }} characters"
+msgstr ""
+
+msgid "The specified property value is {{ prop }}, cannot be empty"
+msgstr ""
+
+msgid "The specified property value is {{ prop }}, cannot be NULL"
+msgstr ""
+
+msgid "The value of {{ value }} does not match the format `{{ format }}`"
+msgstr ""
+
+msgid "The QR code format does not match the available formats"
+msgstr ""
+# <- END Default validation message
+
+
+# <- Other validation message
+msgid "QR block class must be string type, {{ invalid }} given"
+msgstr ""
+
+msgid "The QR block class must have a minimum of {{ min }} and a maximum of {{ max }} characters"
+msgstr ""
+
+msgid "QR image class must be string type, {{ invalid }} given"
+msgstr ""
+
+msgid "The QR image class must have a minimum of {{ min }} and a maximum of {{ max }} characters"
+msgstr ""
+
+msgid "File logging value cannot be empty"
+msgstr ""
+
+msgid "File logging value must be boolean type, {{ invalid }} given"
+msgstr ""
+
+msgid "Telegram logging value cannot be empty"
+msgstr ""
+
+msgid "Telegram logging value must be boolean type, {{ invalid }} given"
+msgstr ""
+# <- END Other validation message
+# <-- END Validation exeption messages -->
+# <--------------------- END Backend Errors ->

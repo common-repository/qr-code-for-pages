@@ -1,0 +1,33 @@
+.me-qr-loading-module {
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem 0.5rem;
+}
+    .me-qr-loading-module .me-qr-loader-text-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+        .me-qr-loader-text-box .me-qr-loader-text {
+            text-align: center;
+            font-size: 0.7rem;
+            color: var(--me-qr-gray-color-1);
+        }
+
+    .me-qr-loading-module .me-qr-loader {
+        width: 1.538rem;
+        height: 1.538rem;
+        max-height: 100%;
+        border: 0.385rem solid #f3f3f3;
+        border-top: 0.385rem solid var(--me-qr-violet-color);
+        border-radius: 50%;
+        animation: me-qr-spin-animation 1.5s linear infinite;
+    }
+    @keyframes me-qr-spin-animation {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
